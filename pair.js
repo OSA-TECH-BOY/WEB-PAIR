@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://mega.nz/file/jQx1DRrC#3PLNZHOXBwqddmj9a5CexJglOMJgGXZ6Z1gYcBUca6E",
+                url: "https://raw.githubusercontent.com/OSA-TECH-BOY/BOT-HELPER/refs/heads/main/OfficialLogo.jpg",
               },
               caption: sid,
             });
@@ -129,4 +129,5 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
